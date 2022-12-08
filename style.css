@@ -4,73 +4,62 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style:none
+    font-family: 'Inter', sans-serif;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
     height: 100vh;
     width: 100%;
+    
 }
 
 /* Meu Header*/
 
-.header{
+.header__nav {
     display: flex;
     justify-content: space-around;
 }
 
-.header__logo {
+.header__logo__frase{
     display: flex;
-    background: #FFFFFF;
 }
 
-.header__logo img {
+.header__logo__frase p{
+    margin-top: 31px;
+}
+
+img {
+    margin-top: 28px;
     width: 27px;
     height: 26.99px;
-    margin: 26.5px 0;
+    
 }
 
-.header__logo p {
-    padding-left: 8px;
-    margin: 28px 0;
-    font-size: 18px;
-}
-
-.header__itens{
+.header__menu ul {
     display: flex;
-    padding: 28px;
-    font-size: 16px;
-    color: rgba(102, 112, 133, 1);
+    list-style: none;
+    padding: 28px; 
+    color: #667085;
 }
 
-.header__menu {
+.header__menu--padding-left{
     padding-left: 32px;
 }
 
-.header__btns{
-    padding: 28px 0 28px 30px;
-    font-family: 'Inter', sans-serif;
-    
 
+.buttons{
+    margin-top: 28px;
+    
 }
 
-.header__entrar{
+.buttons__entrar{
+    color: #667085;
+    border: none;
+    background:none;
     width: 47px;
     height: 24px;
-    border: none;
-    background: #FFFFFF;
-    color: rgba(102, 112, 133, 1);  
+    margin-right: 30px;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
 
-.header__cadastrar{
-    width: 76px;
-    height: 24px;
-    font-size: 16px;
-    color: #FFFFFF;
-    background: #8E2424;
-    border-color:rgba(142, 36, 36, 1);
-    
-}
