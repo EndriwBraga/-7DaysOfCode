@@ -4,13 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+   
 }
 
 body {
     height: 100vh;
     width: 100%;
-    
+    font-family: 'Inter', sans-serif;
 }
 
 /* Meu Header*/
@@ -29,10 +29,9 @@ body {
 }
 
 img {
-    margin-top: 28px;
+    margin: 28px 8px 0 0;
     width: 27px;
     height: 26.99px;
-    
 }
 
 .header__menu ul {
@@ -46,20 +45,42 @@ img {
     padding-left: 32px;
 }
 
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 .buttons{
-    margin-top: 28px;
-    
+    padding-top: 18px;
 }
 
 .buttons__entrar{
     color: #667085;
     border: none;
     background:none;
-    width: 47px;
-    height: 24px;
     margin-right: 30px;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    padding: 10px 18px;
+    line-height: 24px;
 }
 
+.button__cadastrar {
+    font-family: 'Inter', sans-serif;
+    padding: 10px 18px;
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 16px
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.buttons__entrar:hover .button__cadastrar:hover {
+    cursor: pointer;
+}
