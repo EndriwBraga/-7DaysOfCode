@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
     margin: 0;
@@ -18,6 +18,7 @@ body {
 .header__nav {
     display: flex;
     justify-content: space-around;
+    font-weight: 500;
 }
 
 .header__logo__frase{
@@ -39,10 +40,12 @@ img {
     list-style: none;
     padding: 28px; 
     color: #667085;
+    
 }
 
 .header__menu--padding-left{
     padding-left: 32px;
+    
 }
 
 li a {
@@ -83,4 +86,69 @@ button a {
 
 .buttons__entrar:hover .button__cadastrar:hover {
     cursor: pointer;
+}
+
+
+/* Conteudo Principal */
+
+.conteudo__principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.conteudo__inicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 96px 0  24px 0;
+    color: #8E2424;
+    font-size: 16px;
+    font-weight: 600;   
+}
+
+.conteudo__destacado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 48px;    
+    padding: 24px 0 36px 0;
+    color: #101828; 
+}
+
+.conteudo__explicativo {
+    width: 791px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #667085;
+    margin-bottom: 107px;
+}
+
+/* METRICAS */
+
+
+.metricas__numeros ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    font-weight: 600;
+    font-size: 60px;
+    color: #8E2424;
+    
+}
+
+.metricas__lista--altura-largura {
+    width: 280px;
+    height: 72px;
+}
+
+.metricas__subtitulo{
+    display: flex;
+    width: 280px;
+    height: 28px;
 }
