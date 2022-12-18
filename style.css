@@ -13,6 +13,10 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+button{
+    font-family: 'Inter', sans-serif;
+}
+
 /* Meu Header*/
 
 .header__nav {
@@ -63,14 +67,12 @@ li a {
     border: none;
     background:none;
     margin-right: 30px;
-    font-family: 'Inter', sans-serif;
     font-size: 16px;
     padding: 10px 18px;
     line-height: 24px;
 }
 
 .button__cadastrar {
-    font-family: 'Inter', sans-serif;
     padding: 10px 18px;
     background: #8E2424;
     border: 1px solid #8E2424;
@@ -180,3 +182,65 @@ button a {
     color: #667085;
 }
 
+
+/* vagas */
+
+.container__salarios{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.salarios__button--letra{
+    font-size: 14px;
+    font-weight: 500;
+    margin: auto;
+    cursor: pointer;
+}
+
+.salarios__button--box{
+    width: 125px;
+    height: 28px;
+    padding: 4px 12px;
+    border-radius: 16px;
+    border: none;
+}
+
+.salarios__button--color {
+    background:rgba(142, 36, 36, 0.05);
+    color: #8E2424;
+}
+
+.salarios_aprensentacao--margin{
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.salarios_aprensentacao--letra{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.salarios__subtitulo--letra{
+    font-weight: 400;
+    font-size: 20px;
+    color: #667085;
+}
+
+.salarios__img--box{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+}
+
+.salarios__img--margin{
+    margin: 64px auto;
+}
+
+.salarios__desing{
+    width: 768px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
