@@ -130,16 +130,15 @@ button a {
 /* METRICAS */
 
 
-.metricas__numeros ul{
+.metricas__numeros {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     list-style: none;
     font-weight: 600;
     font-size: 60px;
     color: #8E2424;
-    
 }
 
 .metricas__lista--altura-largura {
@@ -147,8 +146,37 @@ button a {
     height: 72px;
 }
 
-.metricas__subtitulo{
+.metricas__apresentacao{
     display: flex;
+    justify-content: center;
+    text-align: left;
+    list-style: none;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.metricas__subtitulo--altura-largura{
     width: 280px;
     height: 28px;
+    font-weight: 500;
 }
+
+.metricas__explicacao{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    list-style: none;
+    padding-bottom: 96px;
+}
+
+.metricas__texto--altura-largura{
+    width: 280px;
+    height: 72px;
+}
+
+.metricas__texto--fontsize{
+    font-weight: 400;
+    font-size: 16px;
+    color: #667085;
+}
+
