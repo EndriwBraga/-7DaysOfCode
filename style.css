@@ -13,7 +13,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-button{
+button, input{
     font-family: 'Inter', sans-serif;
 }
 
@@ -31,6 +31,7 @@ button{
 
 .header__logo__frase p{
     margin-top: 31px;
+    color: #3A404E;
 }
 
 img {
@@ -288,5 +289,140 @@ button a {
     gap: 2rem;
 }
 
+/* Depoimentos */
+
+.container__depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+}
+
+.container__depoimentos--box{
+    width: 1216px;
+    height: 404px;
+    margin: 96px auto ;
+    border-radius: 16px;
+    background: rgba(196, 25, 25, 0.03);
+}
+
+.depoimentos__introducao--letter{
+    font-size: 14px;
+    font-weight: 600;
+    color: #8E2424;
+    padding-bottom: 16px;
+}
 
 
+
+.depoimentos__destaque--letter{
+    font-size: 36px;
+    font-weight: 500;
+    color: #101828;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}
+
+.container__depoimentos img {
+    width: 56px;
+    height: 56px;
+    border-radius: 200px;
+}
+
+.depoimento__nome {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 16px;
+    color: #101828;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.container__footer--box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;   
+    background: #F9FAFB;  
+    padding-top: 96px; 
+}
+
+
+.footer__destaque--letter {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.footer__subtitulo--letter{
+    font-weight: 400;
+    font-size: 20px;
+    color: #667085;
+}
+
+.footer__text{
+    width: 360px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.footer__text--internal{
+    font-size: 16px;
+    font-weight: 400;
+    color: #667085;
+    padding: 12px 14px 12px 16px;
+}
+
+.footer__btn{
+    padding: 12px 20px;
+    
+}
+
+.footer__btn--box{
+    width: 116px;
+    height: 48px;
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.footer__btn--letter{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.copyright--letter{
+    font-size: 16px;
+    font-weight: 400;
+    color: #98A2B3;
+    padding-bottom: 90px;
+}
