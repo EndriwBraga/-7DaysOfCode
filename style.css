@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
 }
 
 body {
@@ -91,14 +90,12 @@ button a {
     cursor: pointer;
 }
 
-
 /* Conteudo Principal */
 
 .conteudo__principal{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 
 .conteudo__inicial {
@@ -264,14 +261,16 @@ button a {
     flex-direction: column;
     align-items: left;  
 }
+
 .vagas__informacoes--box{
     width: 768px;   
     height: 136px;
-    border: 1px solid #0355fb;
+    border: 1px solid #EAECF0;
     border-radius: 16px;
     margin: 0 auto 24px auto; 
     gap: 24px;
 }
+
 .vagas__subtitulo{
     width: 720px;
     height: 28px;
@@ -321,7 +320,6 @@ button a {
     color: #101828;
     letter-spacing: -0.02em;
     text-align: center;
-
 }
 
 .container__depoimentos img {
@@ -335,30 +333,14 @@ button a {
     font-weight: 500;
     padding-top: 16px;
     color: #101828;
+    padding-bottom: 4px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.depoimento__frase{
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
+}
 
 /* Footer */
 
