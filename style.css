@@ -127,59 +127,43 @@ button a {
     margin-bottom: 107px;
 }
 
-/* METRICAS */
+/*METRICAS */
 
-
-.metricas__numeros {
+.metricas{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    text-align: left;
-    list-style: none;
-    font-weight: 600;
+    padding: 0 112px 100px;
+    justify-content: space-around;
+    
+}
+
+.metricas_numero{
+    width: 280px;
+    height: 72px;
     font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
     color: #8E2424;
 }
 
-.metricas__lista--altura-largura {
-    width: 280px;
-    height: 72px;
-}
-
-.metricas__apresentacao{
-    display: flex;
-    justify-content: center;
-    text-align: left;
-    list-style: none;
-    font-size: 18px;
-    margin-top: 12px;
-}
-
-.metricas__subtitulo--altura-largura{
+.metricas__titulo{
     width: 280px;
     height: 28px;
+    font-size: 18px;
+    color: #101828;
+    padding-top: 12px;
     font-weight: 500;
+
 }
 
 .metricas__explicacao{
-    display: flex;
-    justify-content: center;
-    text-align: left;
-    list-style: none;
-    padding-bottom: 96px;
-}
-
-.metricas__texto--altura-largura{
     width: 280px;
     height: 72px;
-}
-
-.metricas__texto--fontsize{
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
     color: #667085;
+    padding-top: 8px;
 }
-
 
 /* vagas */
 
@@ -188,6 +172,7 @@ button a {
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 100px;
 }
 
 .salarios__button--letra{
@@ -198,7 +183,7 @@ button a {
 }
 
 .salarios__button--box{
-    width: 125px;
+    width: 130px;
     height: 28px;
     padding: 4px 12px;
     border-radius: 16px;
@@ -227,7 +212,7 @@ button a {
 }
 
 .salarios__img--box{
-    width: 90%;
+    width: 80%;
     height: 400px;
     margin: auto;
 }
@@ -298,7 +283,7 @@ button a {
 }
 
 .container__depoimentos--box{
-    width: 1216px;
+    width:  70%;
     height: 404px;
     margin: 96px auto ;
     border-radius: 16px;
@@ -311,8 +296,6 @@ button a {
     color: #8E2424;
     padding-bottom: 16px;
 }
-
-
 
 .depoimentos__destaque--letter{
     font-size: 36px;
