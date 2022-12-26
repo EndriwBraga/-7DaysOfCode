@@ -132,9 +132,8 @@ button a {
 .metricas{
     display: flex;
     flex-direction: row;
-    padding: 0 112px 100px;
+    padding: 0 112px 96px;
     justify-content: space-around;
-    
 }
 
 .metricas_numero{
@@ -241,6 +240,10 @@ button a {
     margin: 0 auto 32px auto ;
 }
 
+.vagas__titulo--margin-top{
+    margin-top: 32px;
+}
+
 .vagas__informacoes{
     display: flex;
     flex-direction: column;
@@ -271,6 +274,8 @@ button a {
     padding-left: 24px;
     color: #667085;
     gap: 2rem;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* Depoimentos */
@@ -366,7 +371,6 @@ button a {
 
 .footer__btn{
     padding: 12px 20px;
-    
 }
 
 .footer__btn--box{
@@ -391,3 +395,16 @@ button a {
     color: #98A2B3;
     padding-bottom: 90px;
 }
+
+/* MEDIA */
+
+@media screen and (max-width: 1175px) { 
+    .depoimentos__destaque--letter{
+        font-size: 30px;
+    }
+    .metricas{
+        flex-wrap: wrap;
+    }
+  }
+
+  
