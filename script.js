@@ -1,8 +1,3 @@
-const btnMobile = document.getElementById('btn__mobile');
-
-function toggleMenu(){
-    
-}
+//Futuro Menu Responsivo
 
 
-btnMobile.addEventListener('click', toogleMenu);

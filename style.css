@@ -26,7 +26,6 @@ nav {
     width: auto;
 }
 
-
 .frase__logo{
     display: flex;
     align-items: center;
@@ -40,7 +39,6 @@ nav {
 
 .menu{
     display: flex;
-    
 }
 
 .menu a {
@@ -51,8 +49,6 @@ nav {
     color: #667085;
     padding: 0 16px;
 }
-
-
 
 .btn__entrar{
     width: 47px;
@@ -76,12 +72,6 @@ nav {
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     margin-left: 30px;
 }
-
-
-
-
-
-
 
 /* Conteudo Principal */
 
@@ -145,7 +135,6 @@ nav {
     color: #101828;
     padding-top: 12px;
     font-weight: 500;
-
 }
 
 .metricas__explicacao{
@@ -398,14 +387,6 @@ nav {
     .metricas{
         flex-wrap: wrap;
     }
-  }
-
-  @media screen and (max-width: 849px) { 
-    #btn__mobile{
-        display: block;
-    }
-
-    #header__menu{
-        display: none;
-    }
 }
+
+/* Menu Mobile em desenvolvimento futuro */
